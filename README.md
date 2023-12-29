@@ -2,14 +2,14 @@
 
 A password generator written in C++.
 
-## Requirements to compile
+## Requirements
 
-Linux >= 5.4
-[libsodium](https://doc.libsodium.org/) >= 1.0.19
-[CLI11](https://github.com/CLIUtils/CLI11/) >= 2.3.2
-g++ >= 13.2.1
+- Linux >= 5.4
+- [libsodium](https://doc.libsodium.org/) >= 1.0.19
+- [CLI11](https://github.com/CLIUtils/CLI11/) >= 2.3.2
+- g++ >= 13.2.1
 
-## Instructions to compile
+## Instructions to build
 
 1. Clone this repository:
 `git clone --depth 1 https://github.com/RoniKZX/pgen`
@@ -19,7 +19,7 @@ g++ >= 13.2.1
 
 You should be ready to go!
 
-Just execute: `./build/pgen -h` to see the help
+Just execute: `./build/pgen -h` to display the help, or create an alias to make it easier to use.
 
 ### Disclaimer
 Even if I know a thing or two, I'm not a security professional whatsoever.
