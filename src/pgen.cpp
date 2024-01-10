@@ -55,8 +55,8 @@ int main(int argc, char *argv[]) {
                  "Password length (default: " + std::to_string(length) + ")")
       ->take_last();
   // TODO
-  app.add_option("--alphabet,-a", use_this_alphabet, "Use the given alphabet.")
-      ->take_last();
+  // app.add_option("--alphabet,-a", use_this_alphabet, "Use the given alphabet.")
+  //     ->take_last();
 
   CLI11_PARSE(app, argc, argv);
 
