@@ -69,7 +69,7 @@ int main(int argc, char *argv[]) {
                          Alphabet::numbers + Alphabet::symbols;
 
   std::string generated_password = generate_password(alphabet, length);
-  std::cout << "The generated password is: " << generated_password << std::endl;
+  std::cout << generated_password << std::endl;
 
   sodium_memzero(&generated_password, length);
   return 0;
