@@ -4,7 +4,6 @@ A password generator written in C++.
 
 ## Requirements
 
-- Linux >= 5.4
 - [libsodium](https://doc.libsodium.org/) >= 1.0.19
 - [CLI11](https://github.com/CLIUtils/CLI11/) >= 2.3.2
 - g++ >= 13.2.1
